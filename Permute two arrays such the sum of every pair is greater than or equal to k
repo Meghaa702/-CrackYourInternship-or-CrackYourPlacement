@@ -1,0 +1,6 @@
+a.sort()
+b.sort(reverse=True)
+for i in range(len(nums)):
+      if(a[i]+b[i]<k):
+            return False
+return True
